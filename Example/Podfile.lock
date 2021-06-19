@@ -1,0 +1,16 @@
+PODS:
+  - HttpCR (0.1.0)
+
+DEPENDENCIES:
+  - HttpCR (from `../`)
+
+EXTERNAL SOURCES:
+  HttpCR:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HttpCR: c8e3edcab6a78d2c32322a99d9b93742d577d214
+
+PODFILE CHECKSUM: d5dac49c1010300f10e717fca6e7840eace7a670
+
+COCOAPODS: 1.10.0

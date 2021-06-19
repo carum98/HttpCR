@@ -1,0 +1,6 @@
+framework module Pods_HttpCR_Tests {
+  umbrella header "Pods-HttpCR_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

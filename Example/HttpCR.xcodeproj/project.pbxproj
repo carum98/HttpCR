@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		172009E16E824DB8D995972E /* Pods-HttpCR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpCR_Example.release.xcconfig"; path = "Target Support Files/Pods-HttpCR_Example/Pods-HttpCR_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1B9D9C77D44FC3C2AA0D128E /* Pods-HttpCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpCR_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HttpCR_Tests/Pods-HttpCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		45685AC5E06BB8BAA945356F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		45685AC5E06BB8BAA945356F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4DA7974379DE73A6182E4025 /* Pods-HttpCR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpCR_Tests.release.xcconfig"; path = "Target Support Files/Pods-HttpCR_Tests/Pods-HttpCR_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5D69CF79DB9E1AD1C45D39DC /* HttpCR.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HttpCR.podspec; path = ../HttpCR.podspec; sourceTree = "<group>"; };
+		5D69CF79DB9E1AD1C45D39DC /* HttpCR.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HttpCR.podspec; path = ../HttpCR.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* HttpCR_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HttpCR_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		6F67FDC2382648B6E2E38F7E /* Pods_HttpCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HttpCR_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBAF1FCA99D496179A027D8 /* Pods_HttpCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HttpCR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EC6B43D11B38E808DEDC07 /* Pods-HttpCR_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpCR_Example.debug.xcconfig"; path = "Target Support Files/Pods-HttpCR_Example/Pods-HttpCR_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BFC596DCF7D7A369729E0ACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BFC596DCF7D7A369729E0ACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				1B9D9C77D44FC3C2AA0D128E /* Pods-HttpCR_Tests.debug.xcconfig */,
 				4DA7974379DE73A6182E4025 /* Pods-HttpCR_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

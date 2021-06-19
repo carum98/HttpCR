@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol NetworkHttpCR {
+public protocol NetworkHttpCR {
     var session: URLSession { get }
 }
 
@@ -41,7 +41,7 @@ extension NetworkHttpCR {
         return task
     }
     
-    func request<T: Decodable>(
+    public func request<T: Decodable>(
         path: String,
         methods: Methods,
         parameters: [String: Any]? = [:],

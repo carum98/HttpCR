@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Methods {
+public enum Methods {
     case GET
     case POST
     case PUT

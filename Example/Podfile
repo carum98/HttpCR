@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HttpCR_Example' do
+  pod 'HttpCR', :path => '../'
+
+  target 'HttpCR_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
